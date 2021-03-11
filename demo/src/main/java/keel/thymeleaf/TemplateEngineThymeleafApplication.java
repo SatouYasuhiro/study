@@ -17,7 +17,7 @@ public class TemplateEngineThymeleafApplication {
 
         @Override
         public void addViewControllers(ViewControllerRegistry registry) {
-            registry.addViewController("/").setViewName("user");
+            registry.addViewController("/").setViewName("test");
         }
 
     }
